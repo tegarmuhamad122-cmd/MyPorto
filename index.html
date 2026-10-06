@@ -3,298 +3,196 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>TEGAR MUHAMAD IKHSAN | Portfolio</title>
+<meta name="description" content="Portfolio Tegar Muhamad Ikhsan — mahasiswa Sistem Komputer dan pengembang proyek web, IoT, ESP32, Python, MQTT, dan jaringan.">
+<title>TEGAR MUHAMAD IKHSAN | Software Development Portfolio</title>
 
 <link rel="stylesheet" href="style.css">
-
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
-
 <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-
 <div id="particles-js"></div>
 
 <header>
-
 <nav>
-
-<h2 class="logo">MyPorto</h2>
-
+<h2 class="logo">Tegar.dev</h2>
 <ul>
 <li><a href="#about">Tentang</a></li>
+<li><a href="#projects">Project</a></li>
 <li><a href="#education">Pendidikan</a></li>
-<li><a href="#experience">Pengalaman</a></li>
-<li><a href="#skills">Keahlian</a></li>
+<li><a href="#skills">Teknologi</a></li>
 <li><a href="#contact">Kontak</a></li>
 </ul>
-
-<button id="theme-toggle">
-<i class="fas fa-moon"></i>
-</button>
-
+<button id="theme-toggle" type="button" aria-label="Ganti tema"><i class="fas fa-moon"></i></button>
 </nav>
 
 <section class="hero">
-
 <div class="hero-text">
-
-<span class="eyebrow">Portfolio Profesional</span>
-
-<h1>
-<span>TEGAR MUHAMAD IKHSAN</span>
-</h1>
-
+<span class="eyebrow">Software Development Portfolio</span>
+<h1><span>TEGAR MUHAMAD IKHSAN</span></h1>
 <h2 id="typing"></h2>
 
 <p>
-Profesional dengan pengalaman di bidang Sales, Collection,
-dan Customer Service yang berfokus pada hubungan pelanggan
-serta pencapaian target perusahaan.
+Mahasiswa Sistem Komputer yang mengembangkan aplikasi web, backend Python,
+IoT berbasis ESP32, komunikasi MQTT, serta proyek jaringan.
+Portfolio ini menjadi halaman utama untuk menampilkan project dan proses pengembangan saya.
 </p>
 
 <div class="btn-group">
-<a href="#contact" class="btn">Hubungi Saya</a>
+<a href="#projects" class="btn">Lihat Project</a>
+<a href="https://github.com/tegarmuhamad122-cmd" class="btn-outline" target="_blank" rel="noopener">
+<i class="fa-brands fa-github"></i>&nbsp; GitHub
+</a>
 </div>
 
 <div class="hero-highlights">
-
-<div class="highlight-card">
-<strong>3+ Tahun</strong>
-<span>Pengalaman kerja</span>
+<div class="highlight-card"><strong>Web Development</strong><span>HTML, CSS, JavaScript</span></div>
+<div class="highlight-card"><strong>Backend</strong><span>Python & REST API</span></div>
+<div class="highlight-card"><strong>IoT</strong><span>ESP32 & MQTT</span></div>
+<div class="highlight-card"><strong>Networking</strong><span>Wi-Fi, router & server</span></div>
 </div>
-
-<div class="highlight-card">
-<strong>Target Oriented</strong>
-<span>Fokus hasil</span>
-</div>
-
-<div class="highlight-card">
-<strong>Komunikatif</strong>
-<span>Relasi pelanggan</span>
-</div>
-
-<div class="highlight-card">
-<strong>Mahasiswa Aktif</strong>
-<span>Status saat ini</span>
-</div>
-
-</div>
-
 </div>
 
 <div class="hero-image">
-
 <div class="photo-frame">
-<span class="photo-badge"></span>
 <img src="tegar.jpeg" alt="Tegar Muhamad Ikhsan">
 </div>
-
-<p class="hero-caption"></p>
-
+<p class="hero-caption">Computer Systems Student &amp; Developer</p>
 </div>
-
 </section>
-
 </header>
 
 <section id="about" data-aos="fade-up">
-
 <h2 class="section-title">Tentang Saya</h2>
-
 <div class="glass-card">
-
 <p>
-Saya adalah individu yang memiliki pengalaman dalam bidang
-Sales Promotion, Sales Order dan Field Collection.
-Saya senang berinteraksi dengan pelanggan,
-membangun hubungan profesional,
-serta selalu berusaha memberikan hasil terbaik
-untuk perusahaan tempat saya bekerja.
+Saya adalah mahasiswa aktif Program Studi Sistem Komputer di Universitas Pamulang Serang.
+Saya tertarik pada pengembangan software, jaringan komputer, IoT, dan integrasi antara
+perangkat fisik dengan aplikasi web.
 </p>
-
 <p>
-Saat ini saya juga berstatus sebagai <strong>mahasiswa aktif</strong>
-di [Nama Universitas/Perguruan Tinggi], program studi
-[Nama Program Studi], dan terus mengembangkan diri
-melalui pendidikan formal sambil menjalani pengalaman kerja.
+Saya membangun project dari sisi frontend sampai backend, kemudian menghubungkannya
+dengan perangkat ESP32 menggunakan protokol MQTT. Saya juga mempelajari deployment,
+Docker, GitHub, dan layanan cloud untuk membuat project dapat diakses secara lebih luas.
 </p>
+</div>
+</section>
+
+<section id="projects" data-aos="fade-up">
+<h2 class="section-title">Project Software &amp; IoT</h2>
+<div class="projects-container">
+
+<article class="project-card">
+<div class="project-icon"><i class="fa-solid fa-temperature-half"></i></div>
+<div class="project-content">
+<span class="project-tag">WEB + IoT</span>
+<h3>WebSuhuAC</h3>
+<p>
+Dashboard monitoring dan remote control AC dengan simulasi suhu,
+REST API Python, MQTT, ESP32, Docker, dan integrasi cloud.
+</p>
+<div class="tech-list"><span>HTML/CSS/JS</span><span>Python</span><span>MQTT</span><span>ESP32</span><span>Docker</span></div>
+<a href="https://tegarmuhamad122-cmd.github.io/WebSuhuAC/" target="_blank" rel="noopener">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+</div>
+</article>
+
+<article class="project-card">
+<div class="project-icon"><i class="fa-solid fa-id-card"></i></div>
+<div class="project-content">
+<span class="project-tag">ESP32 + RFID</span>
+<h3>RFID Access Control</h3>
+<p>
+Prototype sistem pengendalian akses laboratorium menggunakan RFID,
+ESP32, LCD, buzzer, relay, LED, dan pembatasan waktu akses.
+</p>
+<div class="tech-list"><span>ESP32</span><span>RFID RC522</span><span>LCD I2C</span><span>Relay</span></div>
+</div>
+</article>
+
+<article class="project-card">
+<div class="project-icon"><i class="fa-solid fa-network-wired"></i></div>
+<div class="project-content">
+<span class="project-tag">NETWORKING</span>
+<h3>ESP32 Router Control</h3>
+<p>
+Eksperimen pengendalian dan monitoring router Huawei melalui ESP32,
+Wi-Fi, HTTP request, serta analisis komunikasi web router.
+</p>
+<div class="tech-list"><span>ESP32</span><span>Wi-Fi</span><span>HTTP</span><span>Networking</span></div>
+</div>
+</article>
 
 </div>
-
 </section>
 
 <section class="stats">
-
-<div class="stat">
-<h3 class="counter" data-target="3">3</h3>
-<p>Pengalaman Kerja</p>
-</div>
-
-<div class="stat">
-<h3 class="counter" data-target="2">2</h3>
-<p>Bahasa</p>
-</div>
-
-<div class="stat">
-<h3 class="counter" data-target="1">1</h3>
-<p>Sertifikasi</p>
-</div>
-
+<div class="stat"><h3 class="counter" data-target="3">3</h3><p>Project Utama</p></div>
+<div class="stat"><h3 class="counter" data-target="5">5+</h3><p>Teknologi Dipelajari</p></div>
+<div class="stat"><h3 class="counter" data-target="1">1</h3><p>Fokus: Sistem Komputer</p></div>
 </section>
 
 <section id="education">
-
 <h2 class="section-title">Pendidikan</h2>
-
 <div class="timeline">
-
 <div class="timeline-item" data-aos="fade-right">
-<h3>Ilmu Komputer</h3>
+<h3>Sistem Komputer</h3>
 <span>Universitas Pamulang Serang</span>
-<p>2024 - Sekarang (Mahasiswa Aktif)</p>
+<p>Mahasiswa aktif</p>
 </div>
-
 <div class="timeline-item" data-aos="fade-left">
-<h3>Teknik Perancangan Dan Gambar Mesin</h3>
+<h3>Teknik Perancangan dan Gambar Mesin</h3>
 <span>SMKN 2 Kota Serang</span>
 <p>2017 - 2020</p>
 </div>
-
 </div>
-
-</section>
-
-<section id="experience">
-
-<h2 class="section-title">Pengalaman Kerja</h2>
-
-<div class="timeline">
-
-<div class="timeline-item" data-aos="fade-right">
-<h3>Field Collection</h3>
-<span>PT Federal International Finance</span>
-<p>Oktober 2022 - Juni 2024</p>
-</div>
-
-<div class="timeline-item" data-aos="fade-left">
-<h3>Sales Talking Order</h3>
-<span>PT Artaboga</span>
-<p>April 2022 - Agustus 2022</p>
-</div>
-
-<div class="timeline-item" data-aos="fade-right">
-<h3>Sales Promotor</h3>
-<span>PT Cipta Mitra Kualitama</span>
-<p>Agustus 2021 - Desember 2021</p>
-</div>
-
-</div>
-
 </section>
 
 <section id="skills">
-
-<h2 class="section-title">Keahlian</h2>
-
+<h2 class="section-title">Teknologi &amp; Keahlian</h2>
 <div class="skills-container">
+<div class="skill"><p>HTML / CSS / JavaScript</p><div class="progress"><span style="width:85%"></span></div></div>
+<div class="skill"><p>Python &amp; REST API</p><div class="progress"><span style="width:80%"></span></div></div>
+<div class="skill"><p>ESP32 &amp; Arduino</p><div class="progress"><span style="width:82%"></span></div></div>
+<div class="skill"><p>MQTT &amp; IoT</p><div class="progress"><span style="width:80%"></span></div></div>
+<div class="skill"><p>Git &amp; GitHub</p><div class="progress"><span style="width:78%"></span></div></div>
+<div class="skill"><p>Docker &amp; Deployment</p><div class="progress"><span style="width:70%"></span></div></div>
+<div class="skill"><p>Jaringan Komputer</p><div class="progress"><span style="width:78%"></span></div></div>
+<div class="skill"><p>Microsoft Office</p><div class="progress"><span style="width:85%"></span></div></div>
+</div>
+</section>
 
-<div class="skill">
-<p>Microsoft Excel</p>
-<div class="progress">
-<span style="width:85%"></span>
+<section id="experience">
+<h2 class="section-title">Pengalaman</h2>
+<div class="timeline">
+<div class="timeline-item" data-aos="fade-right">
+<h3>Field Collection</h3><span>PT Federal International Finance</span><p>Oktober 2022 - Juni 2024</p>
+</div>
+<div class="timeline-item" data-aos="fade-left">
+<h3>Sales Talking Order</h3><span>PT Artaboga</span><p>April 2022 - Agustus 2022</p>
+</div>
+<div class="timeline-item" data-aos="fade-right">
+<h3>Sales Promotor</h3><span>PT Cipta Mitra Kualitama</span><p>Agustus 2021 - Desember 2021</p>
 </div>
 </div>
-
-<div class="skill">
-<p>Microsoft Word</p>
-<div class="progress">
-<span style="width:80%"></span>
-</div>
-</div>
-
-<div class="skill">
-<p>Microsoft PowerPoint</p>
-<div class="progress">
-<span style="width:78%"></span>
-</div>
-</div>
-
-<div class="skill">
-<p>Google Workspace</p>
-<div class="progress">
-<span style="width:76%"></span>
-</div>
-</div>
-
-<div class="skill">
-<p>Data Entry</p>
-<div class="progress">
-<span style="width:82%"></span>
-</div>
-</div>
-
-<div class="skill">
-<p>Komunikasi</p>
-<div class="progress">
-<span style="width:90%"></span>
-</div>
-</div>
-
-<div class="skill">
-<p>Negosiasi</p>
-<div class="progress">
-<span style="width:88%"></span>
-</div>
-</div>
-
-<div class="skill">
-<p>Customer Handling</p>
-<div class="progress">
-<span style="width:92%"></span>
-</div>
-</div>
-
-</div>
-
 </section>
 
 <section id="contact">
-
 <h2 class="section-title">Kontak</h2>
-
 <div class="contact-box">
-
-<p>
-<i class="fa-solid fa-phone"></i>
-087887877171
-</p>
-
-<p>
-<i class="fa-solid fa-envelope"></i>
-tegarmuhamad122@gmail.com
-</p>
-
-<p>
-<i class="fa-solid fa-location-dot"></i>
-Serang, Banten
-</p>
-
+<p><i class="fa-brands fa-github"></i><a href="https://github.com/tegarmuhamad122-cmd" target="_blank" rel="noopener">github.com/tegarmuhamad122-cmd</a></p>
+<p><i class="fa-solid fa-envelope"></i><a href="mailto:tegarmuhamad122@gmail.com">tegarmuhamad122@gmail.com</a></p>
+<p><i class="fa-solid fa-location-dot"></i>Indonesia</p>
 </div>
-
 </section>
 
 <footer>
-© 2026 Tegar Muhamad Ikhsan
+<span>© 2026 Tegar Muhamad Ikhsan · Software Development Portfolio</span>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-
 <script src="script.js"></script>
-
 </body>
 </html>
